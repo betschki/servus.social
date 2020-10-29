@@ -1,0 +1,15 @@
+.logo {
+  font-weight: 300;
+  color: #18191f;
+  line-height: 28px;
+  height: 28px;
+}
+
+.logo span {
+  display: inline-block;
+  font-weight: 900;
+}
+
+.logo img {
+  margin-right: 6px;
+}

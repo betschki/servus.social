@@ -1,0 +1,12 @@
+.header {
+  margin-top: 120px;
+}
+
+.underline {
+  text-decoration: none;
+  border-bottom: 4px solid #000;
+}
+
+.underline--color-yellow {
+  border-bottom-color: #f2c94c;
+}

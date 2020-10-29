@@ -1,0 +1,8 @@
+.topline {
+  height: 5px;
+  background-color: black;
+}
+
+.topline--color-yellow {
+  background-color: #f2c94c;
+}
