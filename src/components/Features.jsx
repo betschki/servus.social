@@ -10,12 +10,16 @@ function Features() {
   return (
     <section className="features">
       <div className="wave wave--container-top">
-        <img src={Wave} />
+        <img src={Wave} alt="wave background top" />
       </div>
       <Container>
         <Row className="features-1">
           <Col>
-            <img src={FeaturesAnalyseImg} className="rounded mx-auto d-block" />
+            <img
+              src={FeaturesAnalyseImg}
+              className="rounded mx-auto d-block"
+              alt="person looking at notifications on phone"
+            />
           </Col>
           <Col>
             <h2>
@@ -37,12 +41,16 @@ function Features() {
             </p>
           </Col>
           <Col>
-            <img src={FeaturesFreeImg} className="rounded mx-auto d-block" />
+            <img
+              src={FeaturesFreeImg}
+              className="rounded mx-auto d-block"
+              alt="a printer printing a document with the word free"
+            />
           </Col>
         </Row>
       </Container>
       <div className="wave wave--container-bottom">
-        <img src={WaveBottom} />
+        <img src={WaveBottom} alt="wave background bottom" />
       </div>
     </section>
   );

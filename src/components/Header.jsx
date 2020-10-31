@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import { Row, Col, Button } from "reactstrap";
+import { Row, Col } from "reactstrap";
 import ModalButton from "./ModalButton";
 
 function Header() {
@@ -10,7 +10,9 @@ function Header() {
         <Col>
           <h1>
             Your{" "}
-            <span class="underline underline--color-yellow">top followers</span>{" "}
+            <span className="underline underline--color-yellow">
+              top followers
+            </span>{" "}
             -- straight to your DMs.
           </h1>
           <p>
@@ -27,7 +29,11 @@ function Header() {
                 <p>
                   I am building servus.social right now, as a coding exercise in
                   Javascript and ReactJS. You can{" "}
-                  <a href="https://twitter.com/jannisbetschki" target="_blank">
+                  <a
+                    href="https://twitter.com/jannisbetschki"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     follow the process on Twitter
                   </a>
                   , so you will be the first to know about future updates!
@@ -37,6 +43,7 @@ function Header() {
                   <a
                     href="https://github.com/betschki/servus.social"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     open source
                   </a>

@@ -9,7 +9,11 @@ function Report() {
       <Container>
         <Row>
           <Col>
-            <img src={ReportImg} className="rounded mx-auto d-block" />
+            <img
+              src={ReportImg}
+              className="rounded mx-auto d-block"
+              alt="illustration of people looking at documents"
+            />
           </Col>
           <Col>
             <h2>Your report includes...</h2>

@@ -13,7 +13,7 @@ main {
 
 h1 {
   font-size: 2.5rem;
-  font-weight: 800;
+  font-family: "manropebold";
   line-height: 1.5;
 }
 
@@ -25,7 +25,7 @@ h1 {
 
 h2 {
   margin-top: 1.5em;
-  font-weight: 800;
+  font-family: "manropebold";
 }
 p {
   font-size: 16px;
@@ -51,7 +51,7 @@ code:after {
 
 .btn {
   font-size: 14px;
-  font-weight: bold;
+  font-family: "manropebold";
   padding: 10px 25px;
   border-radius: 5px;
 }

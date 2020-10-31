@@ -72,7 +72,11 @@ function Footer() {
                   </p>
                   <p>
                     That being said, we do use{" "}
-                    <a href="https://plausible.io/" target="_blank">
+                    <a
+                      href="https://plausible.io/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       Plausible.io
                     </a>{" "}
                     for analytics purposes. Since the tool itself is designed

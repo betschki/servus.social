@@ -1,13 +1,5 @@
 import React, { useState } from "react";
-import {
-  Navbar,
-  NavbarBrand,
-  NavItem,
-  NavLink,
-  NavbarToggler,
-  Collapse,
-  Nav,
-} from "reactstrap";
+import { Navbar, NavbarBrand, NavbarToggler, Collapse, Nav } from "reactstrap";
 import Logo from "./Logo";
 import "./Navigation.css";
 
@@ -24,7 +16,7 @@ function Navigation() {
       <NavbarToggler onClick={toggleNavbar} />
       <Collapse isOpen={!collapsed} navbar>
         <Nav className="ml-auto" navbar>
-          <NavItem>
+          {/* <NavItem>
             <NavLink href="/about/">About</NavLink>
           </NavItem>
           <NavItem>
@@ -35,7 +27,7 @@ function Navigation() {
           </NavItem>
           <NavItem>
             <NavLink href="/blog/">Blog</NavLink>
-          </NavItem>
+          </NavItem> */}
         </Nav>
       </Collapse>
     </Navbar>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { Container, Button } from "reactstrap";
+import { Container } from "reactstrap";
 import TopBar from "./components/TopBar";
 import Navigation from "./components/Navigation";
 import Header from "./components/Header";
@@ -14,10 +14,6 @@ function App() {
   return (
     <>
       <Helmet>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
-          rel="stylesheet"
-        />
         <script
           async
           defer
