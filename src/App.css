@@ -17,6 +17,12 @@ h1 {
   line-height: 1.5;
 }
 
+@media (max-width: 992px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
 h2 {
   margin-top: 1.5em;
   font-weight: 800;
