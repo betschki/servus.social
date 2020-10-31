@@ -13,7 +13,7 @@ function Header() {
             <span className="underline underline--color-yellow">
               top followers
             </span>{" "}
-            -- straight to your DMs.
+            - straight to your DMs.
           </h1>
           <p>
             <b>servus</b>.social lets you discover your top followers on
