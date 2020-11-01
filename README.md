@@ -28,6 +28,7 @@ In the MVP the report includes:
 | ----------------------------------------------------- | :------: | -----: |
 | Landing Page Design in Figma                          |  Design  |     ✅ |
 | Landing Page Design in React                          |  Design  |     ✅ |
+| Added Gatsby as site generator                        |  Design  |     ✅ |
 | IG-Button pressed leads to modal                      | Frontend |     ✅ |
 | Restructure backend database                          | Backend  |     📝 |
 | First modular version of backend function             | Backend  |     📝 |

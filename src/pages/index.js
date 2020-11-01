@@ -14,14 +14,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <link
-          rel="preload"
-          href="https://servus.social/static/media/manrope-bold-webfont.ef57a6e1.woff2"
-        />
-        <link
-          rel="preload"
-          href="https://servus.social/static/media/manrope-regular-webfont.809835b1.woff2"
-        />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <script
           async
           defer
