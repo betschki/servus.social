@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^4.5.3",
     "gatsby": "^2.24.91",
+    "gatsby-plugin-preload-fonts": "^1.2.29",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
@@ -16,8 +17,9 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "dev": "gatsby develop -p 3333 -o",
-    "build": "gatsby build"
+    "dev": "gatsby develop",
+    "build": "gatsby build",
+    "preload-fonts": "gatsby-preload-fonts"
   },
   "eslintConfig": {
     "extends": [

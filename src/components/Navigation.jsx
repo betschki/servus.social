@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Navbar, NavbarBrand, NavbarToggler, Collapse, Nav } from "reactstrap";
 import Logo from "./Logo";
 import "./Navigation.css";
+import { Link } from "gatsby";
 
 function Navigation() {
   const [collapsed, setCollapsed] = useState(true);
@@ -11,7 +12,9 @@ function Navigation() {
   return (
     <Navbar expand="md" className="px-0">
       <NavbarBrand>
-        <Logo />
+        <Link to="/">
+          <Logo />
+        </Link>
       </NavbarBrand>
       <NavbarToggler onClick={toggleNavbar} />
       <Collapse isOpen={!collapsed} navbar>
