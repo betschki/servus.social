@@ -1,9 +1,10 @@
 import React from "react";
+import LogoImg from "../images/long_light.svg";
 
 function Logo() {
   return (
     <div className="logo">
-      <img src="/assets/images/logos/long_light.svg" alt="logo in form of #" />
+      <img src={LogoImg} alt="logo in form of #" />
     </div>
   );
 }

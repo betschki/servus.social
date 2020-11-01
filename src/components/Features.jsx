@@ -1,10 +1,10 @@
 import React from "react";
 import "./Features.css";
 import { Container, Row, Col } from "reactstrap";
-import Wave from "../img/wave.svg";
-import WaveBottom from "../img/wave-bottom.svg";
-import FeaturesAnalyseImg from "../img/features-analyseweekly.svg";
-import FeaturesFreeImg from "../img/features-free.svg";
+import Wave from "../images/wave.svg";
+import WaveBottom from "../images/wave-bottom.svg";
+import FeaturesAnalyseImg from "../images/features-analyseweekly.svg";
+import FeaturesFreeImg from "../images/features-free.svg";
 
 function Features() {
   return (

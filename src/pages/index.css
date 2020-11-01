@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "manropebold";
+  src: url("../static/fonts/manrope/manrope-bold-webfont.woff2") format("woff2"),
+    url("../static/fonts/manrope/manrope-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "manropeextrabold";
+  src: url("../static/fonts/manrope/manrope-extrabold-webfont.woff2")
+      format("woff2"),
+    url("../static/fonts/manrope/manrope-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "manropeextralight";
+  src: url("../static/fonts/manrope/manrope-extralight-webfont.woff2")
+      format("woff2"),
+    url("../static/fonts/manrope/manrope-extralight-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "manropelight";
+  src: url("../static/fonts/manrope/manrope-light-webfont.woff2")
+      format("woff2"),
+    url("../static/fonts/manrope/manrope-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "manropemedium";
+  src: url("../static/fonts/manrope/manrope-medium-webfont.woff2")
+      format("woff2"),
+    url("../static/fonts/manrope/manrope-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "manroperegular";
+  src: url("../static/fonts/manrope/manrope-regular-webfont.woff2")
+      format("woff2"),
+    url("../static/fonts/manrope/manrope-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "manropesemibold";
+  src: url("../static/fonts/manrope/manrope-semibold-webfont.woff2")
+      format("woff2"),
+    url("../static/fonts/manrope/manrope-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "manroperegular", sans-serif;
+  color: #20385c;
+}
+
+main {
+  align-content: center;
+  box-sizing: border-box;
+  display: grid;
+  hyphens: auto;
+  line-height: 1.65;
+  margin: 0 auto;
+  max-width: 680px;
+  min-height: 100vh;
+  padding: 72px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "manropebold";
+  line-height: 1.5;
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+h2 {
+  margin-top: 1.5em;
+  font-family: "manropebold";
+}
+p {
+  font-size: 16px;
+}
+a {
+  color: #0076ff;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+code,
+pre {
+  color: #d400ff;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-size: 0.92em;
+}
+code:before,
+code:after {
+  content: "\`";
+}
+
+.btn {
+  font-size: 14px;
+  font-family: "manropebold";
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: #f2c94c !important;
+  border-color: #f2c94c !important;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:focus {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+  color: #18191f;
+}
+
+.underline {
+  text-decoration: none;
+  border-bottom: 4px solid #000;
+}
+
+.underline--color-yellow {
+  border-bottom-color: #f2c94c;
+}

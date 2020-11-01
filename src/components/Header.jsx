@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import { Row, Col } from "reactstrap";
 import ModalButton from "./ModalButton";
+import HeaderImg from "../images/header-illustration.svg";
 
 function Header() {
   return (
@@ -55,7 +56,7 @@ function Header() {
         </Col>
         <Col className="mt-5 mb-3 mt-sm-0 mb-sm-3">
           <img
-            src="/assets/images/header-illustration.svg"
+            src={HeaderImg}
             alt="illustration of two people looking at a phone"
             className="rounded mx-auto d-block"
           />

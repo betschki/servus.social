@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import ReportImg from "../img/report.svg";
+import ReportImg from "../images/report.svg";
 import "./Report.css";
 
 function Report() {
