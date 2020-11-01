@@ -26,7 +26,7 @@ function App() {
           async
           defer
           data-domain="servus.social"
-          src="https://plausible.io/js/plausible.js"
+          src="https://stats.servus.social/js/index.js"
         ></script>
       </Helmet>
       <TopBar color="yellow" />
