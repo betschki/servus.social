@@ -24,15 +24,14 @@ In the MVP the report includes:
 
 ## ToDos
 
-| ToDo                                                     | Category | Status |
-| -------------------------------------------------------- | :------: | -----: |
-| Landing Page Design in Figma                             |  Design  |     ✅ |
-| Landing Page Design in React                             |  Design  |     📝 |
-| IG-Button pressed leads to email signup for notification | Frontend |     📝 |
-| Restructure backend database                             | Backend  |     📝 |
-| Email signup is connected to Sendinblue                  | Backend  |     📝 |
-| First modular version of backend function                | Backend  |     📝 |
-| Connect Instagram Messaging API to send message          | Backend  |     📝 |
-| Connect Instagram Messaing API and backend for report    | Backend  |     📝 |
-| Create twitter account                                   |  Social  |     ✅ |
-| Create instagram account                                 |  Social  |     ✅ |
+| ToDo                                                  | Category | Status |
+| ----------------------------------------------------- | :------: | -----: |
+| Landing Page Design in Figma                          |  Design  |     ✅ |
+| Landing Page Design in React                          |  Design  |     ✅ |
+| IG-Button pressed leads to modal                      | Frontend |     ✅ |
+| Restructure backend database                          | Backend  |     📝 |
+| First modular version of backend function             | Backend  |     📝 |
+| Connect Instagram Messaging API to send message       | Backend  |     📝 |
+| Connect Instagram Messaing API and backend for report | Backend  |     📝 |
+| Create twitter account                                |  Social  |     ✅ |
+| Create instagram account                              |  Social  |     ✅ |
