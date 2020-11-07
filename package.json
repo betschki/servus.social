@@ -9,6 +9,7 @@
     "bootstrap": "^4.5.3",
     "gatsby": "^2.24.91",
     "gatsby-plugin-preload-fonts": "^1.2.29",
+    "instatouch": "^2.3.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
