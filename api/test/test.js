@@ -7,9 +7,9 @@ module.exports = (req, res) => {
     try {
       const options = { count: 100, mediaType: "image" };
       const user = await instaTouch.user({ name }, options);
-      console.log(user);
+      res.send(user);
     } catch (error) {
-      console.log(error);
+      res.send(error);
     }
   })();
 };
